@@ -1,0 +1,60 @@
+/* style.css */
+:root {
+  --marron-claro: #A09173;
+  --crema:       #EBE2CF;
+  --marron-osc:  #73500C;
+  --verde-osc:   #5F8842;
+  --verde-claro: #BAEE94;
+}
+
+/* Fondo general */
+.reportview-container, .sidebar .sidebar-content {
+  background-color: var(--marron-claro);
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+  color: var(--verde-osc);
+  background-color: var(--crema);
+}
+.sidebar .sidebar-content h2, 
+.sidebar .sidebar-content label {
+  color: var(--marron-osc);
+}
+.sidebar .sidebar-content select, 
+.sidebar .sidebar-content button {
+  border-color: var(--verde-osc);
+  color: var(--verde-osc);
+  background-color: white;
+}
+.sidebar .sidebar-content button {
+  background-color: var(--marron-osc);
+  color: white;
+}
+.sidebar .sidebar-content button:hover {
+  background-color: var(--verde-osc);
+}
+
+/* Encabezados */
+h1, h2, h3, h4 {
+  color: var(--verde-osc);
+}
+
+/* Tablas */
+.st-table, .st-dataframe {
+  background-color: white;
+  color: var(--verde-osc);
+}
+table {
+  border: 1px solid var(--verde-osc) !important;
+}
+th {
+  background-color: var(--crema) !important;
+  color: var(--marron-osc) !important;
+}
+td {
+  background-color: white !important;
+}
+tr:nth-child(even) td {
+  background-color: #F5F0E6 !important;
+}
